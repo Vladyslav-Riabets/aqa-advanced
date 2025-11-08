@@ -1,0 +1,27 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "First npm init",
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Vladyslav-Riabets/aqa-advanced#readme",
+  "bugs": {
+    "url": "https://github.com/Vladyslav-Riabets/aqa-advanced/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladyslav-Riabets/aqa-advanced.git"
+  },
+  "license": "ISC",
+  "author": "Vlad R",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
