@@ -1,8 +1,8 @@
-const averageGrade = 95;
+const averageGrade = 77;
 
 let message;
 
-if (averageGrade < 60) {
+if (averageGrade >= 0 && averageGrade < 60) {
     message = 'Незадовільно';
 } else if (averageGrade >= 60 && averageGrade <= 70) {
     message = 'Задовільно';
@@ -12,6 +12,8 @@ if (averageGrade < 60) {
     message = 'Дуже добре';
 } else if (averageGrade >= 91 && averageGrade <= 100) {
     message = 'Відмінно';
+} else {
+    message = 'Задайте валідне значення від 0 до 100';
 }
 
 console.log(message);
